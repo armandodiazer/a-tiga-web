@@ -5,8 +5,10 @@
     <title>Progate</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery.js"></script>
   </head>
   <body>
+
     <header>
       <div class="container">
         <div class="header-left">
@@ -17,6 +19,7 @@
         </div>
       </div>
     </header>
+
     <div class="top-wrapper">
       <div class="container">
         <h1>BELAJAR CODING.</h1>
@@ -31,6 +34,7 @@
         </div>
       </div>
     </div>
+
     <div class="lesson-wrapper">
       <div class="container">
         <div class="heading">
@@ -68,6 +72,7 @@
         </div>
       </div>
     </div>
+
     <div class="message-wrapper">
       <div class="container">
         <div class="heading">
@@ -77,11 +82,21 @@
         <span class="btn message">Mulai Belajar</span>
       </div>
     </div>
+    
     <footer>
       <div class="container">
         <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
         <p>Learn to code, learn to be creative.</p>
       </div>
     </footer>
+
+
+    <script type="text/javascript">
+      
+      $(".btn, .message").click(function(){
+        alert("START");
+      });
+
+    </script>
   </body>
 </html>
