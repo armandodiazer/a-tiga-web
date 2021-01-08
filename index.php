@@ -45,12 +45,13 @@ include_once 'php_scripts/db.php';
 
                 			$blogTitle = strtoupper($rows['blogTitle']);
                 			$blogDesc = substr($rows['blogDesc'],0,300);
+                			$blogImage = $rows['blogImage'];
 
                 			?>
                 			<div class="items">
                         		<div class="list-item">
 	                            	<div class="list-items">
-	                                	<img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
+	                                	<img src=<?php echo $blogImage; ?>>
 	                                	<h2><?php echo $blogTitle; ?></h2>
 	                                	<p><?php echo $blogDesc; ?></p>
 	                            	</div>
