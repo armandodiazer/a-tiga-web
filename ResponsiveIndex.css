@@ -1,0 +1,59 @@
+/* Tablet mode */
+
+@media all and (max-width: 1024px) {
+    .top-wrapper {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .item {
+        height: 3800px;
+        width: 100%;
+    }
+
+    .item a {
+        width: 25%;
+        margin: 10%;
+    }
+
+    .items {
+        width: 50%;
+    }
+
+    footer {
+        padding-left: 0px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .top-wrapper {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .item {
+        height: 3800px;
+        width: 100%;
+    }
+
+    .item a {
+        width: 25%;
+        margin: 10%;
+    }
+
+    .items {
+        width: 50%;
+    }
+
+    footer {
+        padding-left: 0px;
+    }
+}

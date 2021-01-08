@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(33, 66, 99, 0.7);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    font-family: "Lucida Grande";
+    text-align: center;
+}
+
+header h2 {
+    color: rgba(255, 255, 255);
+    line-height: 20px;
+    letter-spacing: 5px;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+header span {
+    color: red;
+}
+
+header h2:hover {
+    opacity: 1;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-wrapper {
+    width: 600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    height: 150px;
+    background-color: rgba(33, 66, 99, 0.7);
+    padding-top: 100px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: "Michegar";
+}
+
+.top-wrapper h1 {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
+}
+
+.top-profile {
+    height : 300px;
+    background-color: #a9b9da;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.mid-profile {
+    height : 300px;
+    background-color: #466289;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.bottom-profile {
+    height : 300px;
+    background-color:rgba(33, 66, 99, 0.7);
+    padding-top: 50px;
+    text-align: center;
+}
+
+.right, .left {
+    float: left;
+}
+
+.right a {
+    margin-left: 10px;
+}
+
+.left a {
+    margin-right: 10px;
+}
+
+.photo {
+    width: 400px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.photo img {
+    border-radius: 200px;
+    height: 250px;
+    width: 250px;
+}
+
+.top, .bottom {
+    width: 600px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.top p {
+    color: rgba(33, 66, 99);
+}
+
+.top h2 {
+    color : rgba(33, 66, 99);
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+
+.bottom p {
+    color: #a9b9da;
+}
+
+.bottom h2 {
+    color : #a9b9da;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+
+.mid {
+    width: 600px;
+    padding-right: 15px;
+    padding-left: 100px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.mid p {
+    color: whitesmoke;
+}
+
+.mid h2 {
+    color : whitesmoke;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 25px;
+    opacity: 0.7;
+    padding: 12px 24px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.btn:hover {
+    opacity: 1;
+    border-bottom: 0px solid rgb(255, 255, 255);
+    margin-top: 2px;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.instagram {
+    background-color: deeppink;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.github {
+    background-color: black;
+}
+
+.btn-home {
+    background-color: #a9b9da;
+    font-family: "Michegar";
+    padding: 12px 40px;
+    margin-top: 140px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 25px;
+    opacity: 0.7;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+
+.btn-home:hover {
+    opacity: 1;
+    border-bottom: 0px solid rgb(255, 255, 255);
+    margin-top: 142px;
+    margin-right: 10px;
+}
+
+.social-kanan {
+    padding-top: 15px;
+    float: right;
+}
+
+.social-kiri {
+    padding-top: 15px;
+}
+
+.desc {
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    text-align: center;
+    background-color: #466289;
+    color: whitesmoke;
+}
+
+.desc h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+.desc span {
+    color: red;
+}
+
+.des {
+    float: left;
+}
+
+.des h1 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.decontainer {
+    width: 500px;
+    padding: 0 40px;
+    margin : 0 auto;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #92a5d0;
+    text-align: center;
+}
+
+footer h1 {
+    color: white;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+footer span {
+    color: red;
+}
+
+footer h1:hover {
+    opacity: 1;
+}
+
+
+
+
+
+

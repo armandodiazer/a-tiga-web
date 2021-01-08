@@ -1,0 +1,195 @@
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(33, 66, 99, 0.7);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    font-family: "Lucida Grande"; 
+}
+
+body {
+    margin: 0px; 
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+header h2 {
+    display: inline-block;
+    color:white;
+    opacity: 0.7;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+
+header h2:hover {
+    opacity: 1;
+}
+
+.container span {
+    color: red;
+    opacity: 0.7;
+}
+
+.container h1 {
+    letter-spacing: 2px;
+}
+
+.top-wrapper {
+    padding-top: 200px;
+    padding-bottom: 150px;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/9459434/thumb/1.jpg);
+    background-size: cover;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 30px;
+    opacity: 0.8;
+    font-family: "Michegar";
+}
+
+.list-container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    
+}
+
+.content {
+    height: 60px;
+    padding-bottom: 80px;
+    background-color: rgba(33, 66, 99, 0.7);
+    font-family: "Michegar"; 
+}
+
+.list-content {
+    float: left;
+    width: 150px;
+    margin-top: 25px;
+    padding-bottom : 25px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.list-content a{
+    background-color: #9999cc;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    border-radius: 25px;
+    opacity: 0.8;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.home {
+    padding: 12px 37px;
+}
+
+.news {
+    padding: 12px 37px;
+}
+
+.about {
+    padding: 12px 20px;
+}
+
+.btn-lihat {
+    display: inline-block;
+    color: white;
+    border-radius: 25px;
+    opacity: 0.8;
+    margin: 0px auto;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 12px 20px;
+    background-color: #9999cc;
+    margin-top: 100px;
+    font-family: "Michegar"; 
+}
+
+.btn-lihat:hover {
+    opacity: 1;
+    border-bottom: 0px solid rgb(255, 255, 255);
+    margin-top: 102px;
+}
+
+.btn:hover{
+    opacity: 1;
+    border-bottom: 0px solid rgb(255, 255, 255);
+    margin-top: 2px;
+}
+.item {
+    height: 2000px;
+    padding-bottom: 80px;
+    background-color: #466289;
+}
+
+.items {
+    display: inline-block;
+    background-color: #a9b9da;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 18px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left : 50px;
+    width: 41%;
+    height: 550px;
+    text-align: center;
+    font-family: "Lucida Grande"; 
+}
+
+.items img {
+    margin-top: 50px;
+    border-radius: 100px;
+    height : 200px;
+    width : 200px;
+}
+
+.list-items {
+    text-align: center;
+}
+
+.list-items h2 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.list-items p {
+    font-size: 18px;
+}
+
+.list-item {
+    width: 320px;
+    margin-left: 16.5%;
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: #92a5d0;
+}
+
+footer h1 {
+    color: white;
+    opacity: 0.8;
+}
+
+footer h1:hover {
+    opacity: 1;
+}
+
+
+

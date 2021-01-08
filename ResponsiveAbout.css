@@ -1,0 +1,90 @@
+@media all and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .top, .bottom{
+        width: 500px;
+    }
+
+    .mid {
+        width: 500px;
+        padding-left: 90px;
+    }
+
+    .photo {
+        width: 35%;
+    }
+
+    .desc {
+        padding-right: 25px;
+        height: 650px;
+    }
+
+    .des {
+        float: none;
+    }
+
+    .decontainer {
+        width: 70%;
+    }
+
+    .decontainer a {
+        width: 25%;
+        margin-top: 70px;
+    }
+
+    .decontainer a:hover {
+        margin-top: 72px;
+    }
+
+    footer {
+        padding-left: 0px;
+    }
+}
+@media all and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .top, .bottom{
+        width: 500px;
+    }
+
+    .mid {
+        width: 500px;
+        padding-left: 90px;
+    }
+
+    .photo {
+        width: 35%;
+    }
+
+    .desc {
+        padding-right: 25px;
+        height: 650px;
+    }
+
+    .des {
+        float: none;
+    }
+
+    .decontainer {
+        width: 70%;
+    }
+
+    .decontainer a {
+        width: 25%;
+        margin-top: 70px;
+    }
+
+    .decontainer a:hover {
+        margin-top: 72px;
+    }
+
+    footer {
+        padding-left: 0px;
+    }
+}
