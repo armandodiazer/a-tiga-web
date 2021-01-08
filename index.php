@@ -1,3 +1,6 @@
+<?php
+include_once 'php_scripts/db.php';
+?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -33,60 +36,31 @@
         </div>
         <div class="item">
                 <div class="container">
-                    <div class="items">
-                        <div class="list-item">
-                            <div class="list-items">
-                                <img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
-                                <h2>JEPANG ITU INDAH</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, deserunt? Facilis beatae aspernatur ratione ducimus in ex voluptatem velit repudiandae recusandae pariatur exercitationem maxime, dignissimos nemo aperiam adipisci modi iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="list-item">
-                            <div class="list-items">
-                                <img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
-                                <h2>JEPANG ITU INDAH</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, deserunt? Facilis beatae aspernatur ratione ducimus in ex voluptatem velit repudiandae recusandae pariatur exercitationem maxime, dignissimos nemo aperiam adipisci modi iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="list-item">
-                            <div class="list-items">
-                                <img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
-                                <h2>JEPANG ITU INDAH</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, deserunt? Facilis beatae aspernatur ratione ducimus in ex voluptatem velit repudiandae recusandae pariatur exercitationem maxime, dignissimos nemo aperiam adipisci modi iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="list-item">
-                            <div class="list-items">
-                                <img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
-                                <h2>JEPANG ITU INDAH</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, deserunt? Facilis beatae aspernatur ratione ducimus in ex voluptatem velit repudiandae recusandae pariatur exercitationem maxime, dignissimos nemo aperiam adipisci modi iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="list-item">
-                            <div class="list-items">
-                                <img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
-                                <h2>JEPANG ITU INDAH</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, deserunt? Facilis beatae aspernatur ratione ducimus in ex voluptatem velit repudiandae recusandae pariatur exercitationem maxime, dignissimos nemo aperiam adipisci modi iste.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="items">
-                        <div class="list-item">
-                            <div class="list-items">
-                                <img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
-                                <h2>JEPANG ITU INDAH</h2>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, deserunt? Facilis beatae aspernatur ratione ducimus in ex voluptatem velit repudiandae recusandae pariatur exercitationem maxime, dignissimos nemo aperiam adipisci modi iste.</p>
-                            </div>
-                        </div>
-                    </div>
+                   
+                   <?php
+
+                		$sql = "SELECT * FROM blog_data;";
+                		$run = mysqli_query($conn, $sql);
+                		while ($rows = mysqli_fetch_array($run)){
+
+                			$blogTitle = strtoupper($rows['blogTitle']);
+                			$blogDesc = substr($rows['blogDesc'],0,300);
+
+                			?>
+                			<div class="items">
+                        		<div class="list-item">
+	                            	<div class="list-items">
+	                                	<img src="https://i.pinimg.com/564x/ba/b5/ab/bab5abd5f2206dd1156c70c8e36d8354.jpg">
+	                                	<h2><?php echo $blogTitle; ?></h2>
+	                                	<p><?php echo $blogDesc; ?></p>
+	                            	</div>
+                        		</div>
+                    		</div>
+                	<?php	}
+                	?>	
+
+
+
                     <a href="#" class="btn-lihat">LIHAT LAINYA</a>
                 </div>
             </div>
